@@ -1,6 +1,6 @@
 <h1 align="center">Quantum IT Innovation Task 🚀</h1>
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+![Demo App](/public/screenshot-for-readme.png)
 
 About This Course:
 
