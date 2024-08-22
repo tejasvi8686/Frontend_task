@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Navbar.css';
+import './navbar.css';
 
 const Navbar = () => {
   return (
