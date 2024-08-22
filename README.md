@@ -1,9 +1,11 @@
-# React + Vite
+<h1 align="center">Quantum IT Innovation Task 🚀</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Demo App](/frontend/public/screenshot-for-readme.png)
 
-Currently, two official plugins are available:
+About This Course:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# Frontend_task" 
+-   ⚛️ Tech Stack: React.js, Bootstrap
+-   📱 Responsive UI With React.js and Bootstrap
+-   🌐 Deployment
+
+
