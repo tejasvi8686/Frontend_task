@@ -1,0 +1,78 @@
+.contact-section {
+  padding-top: 5rem;
+  @media (max-width: 768px) {
+    padding-top: 1rem; /* Adjust the padding for tablets and mobile devices */
+  }
+}
+
+.btn-ctn-clr {
+  background-color: #5033af;
+  color: white;
+}
+
+.btn-ctn-clr:hover {
+  background-color: #523e94;
+  color: white;
+}
+
+/* Contact Section Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes buttonHover {
+  0% {
+    background-color: #5a5bf0;
+    transform: scale(1);
+  }
+  50% {
+    background-color: #494bf5;
+    transform: scale(1.1);
+  }
+  100% {
+    background-color: #5a5bf0;
+    transform: scale(1);
+  }
+}
+
+/* Apply animations to sections */
+.contact-section .animate-heading {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.contact-section .animate-section {
+  display: flex;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact-section .animate-image {
+  animation: slideIn 1.5s ease-in-out;
+}
+
+.contact-section .animate-form {
+  animation: slideIn 1.5s ease-in-out;
+}
+
+/* Button Hover Animation */
+.animate-button:hover {
+  animation: buttonHover 0.5s ease-in-out infinite;
+  background-color: #5a5bf0;
+}
